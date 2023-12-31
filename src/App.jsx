@@ -1,8 +1,10 @@
-import { AddButton } from "./components/AddButton"
+import TasksPage from "./pages/TasksPage"
 function App() {
     return (
     <>
-      <AddButton />
+
+      <TasksPage />
+      
     </>
   )
 }
