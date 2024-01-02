@@ -1,4 +1,4 @@
-export default function TasksPage() {
+export default function NavigationBar(){
     return (
         <>
             <nav className="w-full p-5 border-4 border-b-black">
@@ -7,7 +7,6 @@ export default function TasksPage() {
 
                 </div>
             </nav>
-
         </>
-    )
+    );
 }
