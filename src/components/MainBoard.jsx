@@ -1,17 +1,36 @@
-import NewTasksStack from "./NewTasksStack"
-import InProgressTasksStack from "./InProgressTasksStack"
-import DoneTasksStack from "./DoneTasksStack"
+import TaskCard from "./TaskCard";
 export default function MainBoard() {
     return (
         <>
-            <div className="grid grid-cols-3 gap-1 w-full">
-
-                <DoneTasksStack />
-                <InProgressTasksStack />
-                <NewTasksStack />
-
-
-
+            <div className="container h-64  overflow-auto overscroll-contain">
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
+                <TaskCard />
             </div>
         </>
     );
